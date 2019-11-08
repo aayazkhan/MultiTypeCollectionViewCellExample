@@ -12,9 +12,9 @@ class ButtonQuestion: Question {
     var yesButton: String
     var noButton: String
     
-    init(question: String, type: String, yesButton: String, noButton: String) {
+    init(question: String, yesButton: String, noButton: String) {
         self.yesButton = yesButton
         self.noButton = noButton
-        super.init(question: question, type: type)
+        super.init(question: question)
     }
 }

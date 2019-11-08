@@ -11,8 +11,8 @@ import UIKit
 class TextQuestion: Question {
     var textResponseHint: String
     
-    init(question: String, type: String, textResponseHint: String) {
+    init(question: String, textResponseHint: String) {
         self.textResponseHint = textResponseHint
-        super.init(question: question, type: type)
+        super.init(question: question)
     }
 }

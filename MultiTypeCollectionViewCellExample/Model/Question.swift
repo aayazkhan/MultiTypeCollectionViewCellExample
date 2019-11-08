@@ -14,10 +14,10 @@ import UIKit
 class Question{
     
     var question: String
-    var type: String
+    var response: String
     
-    init(question : String, type: String) {
+    init(question : String) {
         self.question = question
-        self.type = type
+        self.response = ""
     }
 }

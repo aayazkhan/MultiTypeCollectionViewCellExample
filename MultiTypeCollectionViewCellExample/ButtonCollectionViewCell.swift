@@ -10,11 +10,11 @@ import UIKit
 
 class ButtonCollectionViewCell: UICollectionViewCell {
     
-    @IBOutlet weak var lblQuestion: UILabel!
+    @IBOutlet weak var view: UIView!
     
-    @IBOutlet weak var btnNo: UIButton!
+    @IBOutlet weak var lblQuestion: UILabel!
     
     @IBOutlet weak var btnYes: UIButton!
     
-    
+    @IBOutlet weak var btnNo: UIButton!
 }
